@@ -1,0 +1,66 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Karla:wght@500;600;700&display=swap');
+
+
+
+
+.main{
+    display: block;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    padding: 50px 100px 0 100px;
+}
+
+.prinsipal{
+    width: 1000px;
+    height: 300px;
+    background-image: url(../img/img-index/patternpad.svg);
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    /*sombras para una card*/
+    box-shadow:
+     0px 2px 2px rgba(0, 0, 0, 0.25)
+     , 0px 3px 3px rgba(0, 0, 0, 0.25)
+     ;
+
+}
+
+.prinsipal h1{
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+}
+
+.logo-h1{
+    color: #0dc285;
+    margin-top: 0;
+    background-color: #fff;
+    font-size:35px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+
+.contenido{
+    width: 100%;
+    height: min-content;
+    display: grid;
+    grid-template-areas: 
+    "side conten conten conten"
+    ;
+}
+
+.aside{
+    width: 100%;
+    height: min-content;
+    background-color: black;
+    grid-area: side;
+}
+
+.contenido-principal{
+    width: 100%;
+    grid-area: conten;
+}

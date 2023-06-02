@@ -1,0 +1,233 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: arial;
+}
+
+label{
+    font-size: 1rem;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+::placeholder{
+    color: #0dc285;
+}
+
+
+
+
+
+
+
+
+/*animcion del boton*/
+
+@keyframes boton {
+    0%{
+        transform: scale(.9);
+    }
+    
+    25%{
+        transform: scale(1);
+     }
+
+    50%{
+       transform: scale(.9);
+    }
+
+    75%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(.9);
+    }
+            
+}
+
+
+
+
+/*estilos para el sing_up*/
+
+.sing_up{
+    width: 400px;
+    height: 650px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sing_up h2{
+    font-size: 2em;
+    color: #0dc285;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.sing_up label{
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.input{
+    margin-top: 15px;
+    width: 300px;
+    padding: 10px;
+    font-size: 15px;
+    color: #0dc285;
+}
+
+.boton-crear-1{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 300px;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 17px;
+    background-color: #0dc285;
+    cursor: pointer;
+    border: solid #02af7b;
+    transition: 1s;
+}
+
+.boton-crear-1:hover{
+    background-color: #0e976e;
+    border-color: #01c58a;
+    animation: none;
+}
+
+.boton-login-1{
+    width: 300px;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    background-color: #0dc285;
+    cursor: pointer;
+    border: solid #02af7b;
+    transition: 1s;
+    animation-name: boton;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+
+.boton-login-1:hover{
+    background-color: #0e976e;
+    border-color: #01c58a;
+    animation: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*estylos para el loging*/
+
+.login{
+    width: 400px;
+    height: 500px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login h2{
+    font-size: 2em;
+    color: #0dc285;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.input-2{
+    margin-top: 10px;
+    width: 300px;
+    padding: 10px;
+    font-size: 15px;
+    color: #0dc285;
+}
+
+.login label{
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.boton-login-2{
+    margin-top: 80px;
+    margin-bottom: 0px;
+    width: 300px;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 17px;
+    background-color: #0dc285;
+    cursor: pointer;
+    border: solid #02af7b;
+    transition: 1s;
+}
+
+.boton-login-2:hover{
+    background-color: #0e976e;
+    border-color: #01c58a;
+    animation: none;
+}
+
+.boton-crear-2{
+    width: 300px;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    background-color: #0dc285;
+    cursor: pointer;
+    border: solid #02af7b;
+    transition: 1s;
+    transition: 1s;
+    animation-name: boton;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+
+.boton-crear-2:hover{
+    background-color: #0e976e;
+    border-color: #01c58a;
+    animation: none;
+}
